@@ -9,7 +9,7 @@ import Tutorials from "./sections/Tutorials";
 import Contact from "./sections/Contact";
 
 import {ParallaxProvider} from 'react-scroll-parallax';
-import "~/sections/sections.scss"
+import "src/sections/sections.scss"
 
 function App() {
     return (
