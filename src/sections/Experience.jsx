@@ -2,7 +2,7 @@ import React from 'react';
 
 function Experience(props) {
     return (
-        <div>Experience</div>
+        <div className="sections">Experience</div>
     );
 }
 
