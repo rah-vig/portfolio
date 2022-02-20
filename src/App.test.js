@@ -5,7 +5,7 @@
 import React from "react";
 import {screen} from "@testing-library/dom";
 import {render} from "@testing-library/react";
-import App from "./App"
+import App from "App"
 
 test("All sections should exist as SPA", () => {
     const sections = ["Home", "About", "Experience", "Skills", "Projects", "Tutorials", "Intro", "Contact"]
