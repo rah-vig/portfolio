@@ -8,7 +8,7 @@ import {render} from "@testing-library/react";
 import App from "App"
 
 test("All sections should exist as SPA", () => {
-    const sections = ["Home", "About", "Experience", "Skills", "Projects", "Tutorials", "Intro", "Contact"]
+    const sections = ["Home", "About", "Experience", "Skills", "Projects", "Tutorials", "Contact"]
 
     render(<App/>)
     sections.map(section => {
