@@ -7,14 +7,20 @@ export default function AnimateListElements(props) {
     useEffect(() => {
         setTimeout(() => {
             setElementIndex(prevState => (prevState + 1) % props.transitionElements.length)
-        }, 3000)
+        }, 5000)
 
     }, [elementIndex])
 
     return (
         <div>
             {props.transitionElements.map((el, idx) => {
-                return <div key={idx}> {idx === elementIndex && <Zoom>{el}</Zoom>} </div>
+                return (
+                    <div key={idx}>
+                        {idx === elementIndex &&
+                            <Zoom>
+                                <h1>{el}</h1>
+                            </Zoom>}
+                    </div>)
             })}
         </div>
     )
