@@ -20,7 +20,7 @@ const PARTICLE_OPTIONS = {
         },
         "modes": {
             "attract": {
-                "distance": 0
+                "distance": 500
             },
             "bubble": {
                 "distance": 250,
@@ -43,7 +43,7 @@ const PARTICLE_OPTIONS = {
     },
     "particles": {
         "color": {
-            "value": "#ffed63bf"
+            "value": "#008A64"
         },
         "links": {
             "color": {
