@@ -10,4 +10,10 @@ export default defineConfig({
       'src': path.resolve(__dirname, './src'),
     },
   },
+<<<<<<< HEAD
+=======
+  server: {
+    port: 3000
+  }
+>>>>>>> sections/intro
 })

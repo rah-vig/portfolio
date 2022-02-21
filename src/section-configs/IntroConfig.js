@@ -1,15 +1,7 @@
 const PARTICLE_OPTIONS = {
-    "background": {
-        "color": {
-            "value": "#10103f"
-        },
-        "position": "50% 50%",
-        "repeat": "no-repeat",
-        "size": "20%"
-    },
     "fullScreen": {
-        "enable": false,
-        "zIndex": 1
+        "enable": true,
+        "zIndex": 100
     },
     "interactivity": {
         "events": {
@@ -28,7 +20,7 @@ const PARTICLE_OPTIONS = {
         },
         "modes": {
             "attract": {
-                "distance": 0
+                "distance": 500
             },
             "bubble": {
                 "distance": 250,
@@ -51,7 +43,7 @@ const PARTICLE_OPTIONS = {
     },
     "particles": {
         "color": {
-            "value": "#ffed63bf"
+            "value": "#008A64"
         },
         "links": {
             "color": {
