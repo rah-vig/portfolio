@@ -1,7 +1,7 @@
 const PARTICLE_OPTIONS = {
     "fullScreen": {
-        "enable": false,
-        "zIndex": 1
+        "enable": true,
+        "zIndex": 100
     },
     "interactivity": {
         "events": {
