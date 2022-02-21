@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {Zoom} from "react-reveal";
 
-export default function AnimatedPhrase(props) {
+export default function AnimateListElements(props) {
     const [elementIndex, setElementIndex] = useState(0)
 
     useEffect(() => {
@@ -14,7 +14,7 @@ export default function AnimatedPhrase(props) {
     return (
         <div>
             {props.transitionElements.map((el, idx) => {
-                return <div key={idx}> {idx === elementIndex && <Zoom> {el} </Zoom>} </div>
+                return <div key={idx}> {idx === elementIndex && <Zoom>{el}</Zoom>} </div>
             })}
         </div>
     )
