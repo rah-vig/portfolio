@@ -1,12 +1,4 @@
 const PARTICLE_OPTIONS = {
-    "background": {
-        "color": {
-            "value": "#10103f"
-        },
-        "position": "50% 50%",
-        "repeat": "no-repeat",
-        "size": "20%"
-    },
     "fullScreen": {
         "enable": false,
         "zIndex": 1
